@@ -201,7 +201,7 @@ class InitState extends State<SignUpScreen> {
                     ),
                     child: TextButton(
                       onPressed: (){
-                        Navigator.push(context,MaterialPageRoute(builder: (context)=>ImagePicker()));
+                        Navigator.push(context,MaterialPageRoute(builder: (context)=>PickImage()));
                       },
                       child: Text(
                         "REGISTER",

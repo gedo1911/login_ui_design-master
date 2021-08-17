@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
 import 'package:login_ui_design/image_picker.dart';
 
 import 'package:login_ui_design/signup_screen.dart';
@@ -157,7 +158,7 @@ class StartState extends State<LoginScreen> {
                 ),
                 child: TextButton(
                   onPressed: (){
-                    Navigator.push(context,MaterialPageRoute(builder: (context)=>ImagePicker()));
+                    Navigator.push(context,MaterialPageRoute(builder: (context)=>PickImage()));
                   },
                   child: Text(
                     "LOG IN",
