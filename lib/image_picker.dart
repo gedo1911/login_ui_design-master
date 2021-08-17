@@ -33,7 +33,7 @@ class _PickImageState extends State<PickImage> {
         ),
         onPressed: () async {
           await selectPicture();
-          print('Selecting image');
+
         },
       ),
       body: Container(
